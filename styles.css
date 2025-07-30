@@ -17,7 +17,7 @@ body {
   background-color: rgba(22, 22, 29, 0.95);
   padding: 2rem;
   border-radius: 10px;
-  width: 320px;
+  width: 350px;
   text-align: center;
   color: white;
   box-shadow: 0 0 10px rgba(0,0,0,0.6);
@@ -37,9 +37,9 @@ form {
 }
 
 input {
-  padding: 0.6rem;
+  padding: 0.8rem;
   border-radius: 6px;
-  border: 1px solid #444;
+  border: none;
   background-color: #2f2f3b;
   color: white;
   font-size: 0.95rem;
@@ -50,18 +50,17 @@ input::placeholder {
 }
 
 /* Login button */
-form button {
-  padding: 0.6rem;
+.login-btn {
+  padding: 0.8rem;
   background-color: #2f2f3b;
   border: 1px solid #ccc;
   color: white;
   font-weight: bold;
   cursor: pointer;
   border-radius: 6px;
-  margin-top: 0.5rem;
 }
 
-form button:hover {
+.login-btn:hover {
   background-color: #3a3a48;
 }
 
@@ -88,7 +87,7 @@ hr {
 /* Alternative buttons */
 .alt-btn {
   width: 100%;
-  padding: 0.6rem;
+  padding: 0.8rem;
   margin-bottom: 0.6rem;
   background-color: #3a3a48;
   border: none;
@@ -106,7 +105,6 @@ hr {
 .signup-text {
   margin-top: 1rem;
   font-size: 0.9rem;
-  color: #ccc;
 }
 
 .signup-text a {
