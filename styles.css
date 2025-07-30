@@ -1,0 +1,120 @@
+/* Background setup */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('roblox-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Login box styling */
+.login-container {
+  background-color: rgba(22, 22, 29, 0.95);
+  padding: 2rem;
+  border-radius: 10px;
+  width: 320px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+/* Title */
+.login-container h1 {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+/* Form inputs */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+input {
+  padding: 0.6rem;
+  border-radius: 6px;
+  border: 1px solid #444;
+  background-color: #2f2f3b;
+  color: white;
+  font-size: 0.95rem;
+}
+
+input::placeholder {
+  color: #bbb;
+}
+
+/* Login button */
+form button {
+  padding: 0.6rem;
+  background-color: #2f2f3b;
+  border: 1px solid #ccc;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-top: 0.5rem;
+}
+
+form button:hover {
+  background-color: #3a3a48;
+}
+
+/* Forgot password link */
+.forgot-link {
+  display: block;
+  margin: 1rem 0;
+  font-size: 0.9rem;
+  color: #ddd;
+  text-decoration: none;
+}
+
+.forgot-link:hover {
+  text-decoration: underline;
+}
+
+/* Divider */
+hr {
+  border: none;
+  border-top: 1px solid #444;
+  margin: 1rem 0;
+}
+
+/* Alternative buttons */
+.alt-btn {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 0.6rem;
+  background-color: #3a3a48;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.alt-btn:hover {
+  background-color: #4b4b59;
+}
+
+/* Sign up */
+.signup-text {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.signup-text a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.signup-text a:hover {
+  text-decoration: underline;
+}
